@@ -164,30 +164,30 @@
 	}
 	
 .aboutme .paragraph .my-image{
-	width: 85vw;
+	width: 83vw;
 }
 	
 .aboutme .paragraph{
-		font-size:1.3rem;
+		font-size:1.2rem;
 		flex-direction: column;
 	}
 	
 .techinterest{
 	
-	font-size:1.3rem;
+	font-size:1.2rem;
 	flex-direction: column;
 }
 
 .profexpe {
 	
-	font-size:1.3rem;
+	font-size:1.2rem;
 	flex-direction: column;
 	
 }
 
 .webproj {
 	
-	font-size:1.3rem;
+	font-size:1.2rem;
 	flex-direction: column;
 	
 }
