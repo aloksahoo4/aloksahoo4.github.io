@@ -1,0 +1,169 @@
+
+
+:root {
+  font-size: 16px; }
+  
+  
+.aboutme {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	margin:3vw; 
+	background: lightyellow;
+	padding:2vw;
+	outline-style: solid;
+	outline-color: invert;
+	font-size:1.2rem;
+  }
+  
+/*.container{
+	display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}*/
+  
+.techinterest {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;  
+  margin:3vw; 
+  background: lightyellow;
+  padding: 1vw;
+  outline-style: solid;
+  outline-color: invert;
+  font-size:1.2rem;
+  /*width:auto;*/
+  /*text-align:left;*/
+  }
+
+
+.profexpe {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column;  
+  margin: 3vw;
+  background:lightblue; 
+  padding:1vw;
+  outline-style: solid;
+  outline-color: invert;
+  font-size:1.2rem;
+  }
+
+.webproj {
+  display:flex;
+  flex-wrap:wrap;  
+  margin: 3vw;
+  background:grey; 
+  padding:1vw;
+  outline-style: solid;
+  outline-color: invert;
+  font-size:1.3rem;
+  }   
+  
+.aboutme .paragraph .my-image {
+	display:flex;
+    border: 1px solid #35eea4;
+    border-radius:0.15rem;
+    box-shadow: 0px 3px 10px 2px #2c2c2c;
+    width:28vw;
+    float:right;
+	height:auto;
+  }
+  
+  
+  
+/* @media only screen and (min-width:290px){
+	
+	.aboutme .image .my-image{
+		width:50vw;
+	}
+	.aboutme{
+		width:75%;
+	}
+}
+  */
+  
+  
+/*@media only screen and (min-width:1463px){
+	
+	.aboutme .image .my-image{
+		width:33vw;
+	}
+	.aboutme{
+		width:90%;
+		/*font-size:1.5rem;*
+	}
+}  
+
+@media only screen and (min-width:500px) and (max-width:800px){
+	
+	.aboutme .image .my-image{
+		width:50vw;
+	}
+	.aboutme{
+		width:90%;
+	}
+} 
+*/ 
+
+/*@media only screen and (max-width:200px) and (min-width:785px){
+	
+	.techinterest{
+		flex-direction:column;	
+	}
+	.aboutme {
+        flex-direction: column;
+		padding-bottom:5vw;
+		width:80vw;
+    }
+	.profexpe{
+		flex-direction: column;
+	}
+	.container{
+		flex-direction: column;
+	}
+} 
+*/
+
+@media only screen and (max-width:667px){
+.aboutme {
+        flex-direction: column;
+    }
+.aboutme .my-image  {
+		order: -1;
+	}
+	
+.aboutme .paragraph .my-image{
+	width: 87vw;
+}
+	
+.aboutme .paragraph{
+		font-size:1.9rem;
+		flex-direction: column;
+	}
+	
+.techinterest{
+	
+	font-size:1.9rem;
+	flex-direction: column;
+}
+
+.profexpe {
+	
+	font-size:1.9rem;
+	flex-direction: column;
+	
+}
+
+.webproj {
+	
+	font-size:1.9rem;
+	flex-direction: column;
+	
+}
+
+	
+	
+	
+	
+}
