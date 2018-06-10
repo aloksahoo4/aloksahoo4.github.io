@@ -13,7 +13,8 @@
 	padding:2vw;
 	outline-style: solid;
 	outline-color: invert;
-	font-size:1.2rem;
+	font-size:1.5rem;
+	font-family: "verdana";
   }
   
 /*.container{
@@ -31,7 +32,8 @@
   padding: 1vw;
   outline-style: solid;
   outline-color: invert;
-  font-size:1.2rem;
+  font-size:1.5rem;
+  font-family: "verdana";
   /*width:auto;*/
   /*text-align:left;*/
   }
@@ -46,7 +48,8 @@
   padding:1vw;
   outline-style: solid;
   outline-color: invert;
-  font-size:1.2rem;
+  font-size:1.5rem;
+  font-family: "verdana";
   }
 
 .webproj {
@@ -57,7 +60,8 @@
   padding:1vw;
   outline-style: solid;
   outline-color: invert;
-  font-size:1.3rem;
+  font-size:1.5rem;
+  font-family: "verdana";
   }   
   
 .aboutme .paragraph .my-image {
@@ -84,17 +88,43 @@
   */
   
   
-/*@media only screen and (min-width:1463px){
+/*@media only screen and (min-width:900px) and (max-width:1300px){
 	
-	.aboutme .image .my-image{
-		width:33vw;
-	}
-	.aboutme{
-		width:90%;
-		/*font-size:1.5rem;*
-	}
-}  
+	
+.aboutme {
+        flex-direction: column;
+    }
 
+	
+.aboutme .paragraph .my-image{
+	width: 87vw;
+}
+	
+.aboutme .paragraph{
+		font-size:1.9rem;
+		flex-direction: column;
+	}
+	
+.techinterest{
+	
+	font-size:0.8rem;
+	flex-direction: column;
+}
+
+.profexpe {
+	
+	font-size:0.8rem;
+	flex-direction: column;
+	
+}
+
+.webproj {
+	
+	font-size:0.8rem;
+	flex-direction: column;
+} 
+
+/*
 @media only screen and (min-width:500px) and (max-width:800px){
 	
 	.aboutme .image .my-image{
@@ -125,7 +155,7 @@
 } 
 */
 
-@media only screen and (max-width:667px){
+@media only screen and (max-width:665px){
 .aboutme {
         flex-direction: column;
     }
@@ -138,26 +168,26 @@
 }
 	
 .aboutme .paragraph{
-		font-size:1.9rem;
+		font-size:1.4rem;
 		flex-direction: column;
 	}
 	
 .techinterest{
 	
-	font-size:1.9rem;
+	font-size:1.4rem;
 	flex-direction: column;
 }
 
 .profexpe {
 	
-	font-size:1.9rem;
+	font-size:1.4rem;
 	flex-direction: column;
 	
 }
 
 .webproj {
 	
-	font-size:1.9rem;
+	font-size:1.4rem;
 	flex-direction: column;
 	
 }
