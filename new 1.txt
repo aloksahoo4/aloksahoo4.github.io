@@ -1,0 +1,40 @@
+<div class="container-full grey-back">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      The evolution of all organization will gravitate towards the creation of a core of coordinators that are independent of the production. 
+How does this core coordinate? Who is steering the direction of the coordinators? Depending on existing immutable governance, 
+it will all devolve into a competitive game. It devolves into a game of influence. 
+A game of influence among humans has as its currency the number of humans that follow another human.
+More specifically, the number of humans that are not autonomous but follow a leader. A leaders influence is measured in the size of his fiefdom. 
+This is where bullsh*t jobs come from. As the administrative component of an organization grows, 
+the politics grows and the currency of politics is the number of non-autonomous follows in a sub-organization. 
+Bullsh*t jobs exists as a proxy of influence within administrative organizations. 
+Your job is BS if its only purpose is to serve as a token or currency of someone else’s influence.
+    </div>
+    <div class="col-md-4">
+     The evolution of all organization will gravitate towards the creation of a core of coordinators that are independent of the production. 
+How does this core coordinate? Who is steering the direction of the coordinators? Depending on existing immutable governance, 
+it will all devolve into a competitive game. It devolves into a game of influence. 
+A game of influence among humans has as its currency the number of humans that follow another human.
+More specifically, the number of humans that are not autonomous but follow a leader. A leaders influence is measured in the size of his fiefdom. 
+This is where bullsh*t jobs come from. As the administrative component of an organization grows, 
+the politics grows and the currency of politics is the number of non-autonomous follows in a sub-organization. 
+Bullsh*t jobs exists as a proxy of influence within administrative organizations. 
+Your job is BS if its only purpose is to serve as a token or currency of someone else’s influence.
+    </div>
+    <div class="col-sm-4">
+      The evolution of all organization will gravitate towards the creation of a core of coordinators that are independent of the production. 
+How does this core coordinate? Who is steering the direction of the coordinators? Depending on existing immutable governance, 
+it will all devolve into a competitive game. It devolves into a game of influence. 
+A game of influence among humans has as its currency the number of humans that follow another human.
+More specifically, the number of humans that are not autonomous but follow a leader. A leaders influence is measured in the size of his fiefdom. 
+This is where bullsh*t jobs come from. As the administrative component of an organization grows, 
+the politics grows and the currency of politics is the number of non-autonomous follows in a sub-organization. 
+Bullsh*t jobs exists as a proxy of influence within administrative organizations. 
+Your job is BS if its only purpose is to serve as a token or currency of someone else’s influence.
+    </div>
+  </div>
+</div>
+</div>
