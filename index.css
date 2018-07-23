@@ -76,6 +76,14 @@ padding-left: 1vw;
 padding-bottom:2vw;
 	
 }
+
+.poz{
+	position:absolute;
+	bottom:2vw;
+	padding-top: 1vw;
+	width:90vw;
+	margin-left: 2vw;
+}
 	
 }
 
@@ -114,6 +122,14 @@ padding-top: 5vw;
 padding-left: 5vw;
 padding-bottom:3vw;
 	
+}
+
+.poz{
+	position:absolute;
+	bottom:1vw;
+	padding-top: 1vw;
+	width:90vw;
+	margin-left: 2vw;
 }
 	
 }
