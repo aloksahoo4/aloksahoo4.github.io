@@ -1,7 +1,10 @@
-.card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+
+.poz{
+	position:absolute;
+	bottom:2vw;
+	padding-top: 1vw;
+	width:90vw;
+	margin-left: 2vw;
 }
 
 
