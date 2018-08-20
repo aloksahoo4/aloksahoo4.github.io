@@ -1,0 +1,69 @@
+.ToggleFirstElement {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	margin-bottom:1vw;
+}
+
+.active, .ToggleFirstElement:hover {
+    background-color: #555;
+}
+
+.ToggleSecondElement {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	margin-bottom:1vw;
+}
+
+.active, .ToggleSecondElement:hover {
+    background-color: #555;
+}
+
+.ToggleBothElement {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .ToggleBothElement:hover {
+    background-color: #555;
+}
+
+.content1 {
+	margin-left:2vw;
+	margin-bottom:2vw;
+    padding:10px;
+    display: none;
+    overflow: hidden;
+	width: 75vw;
+    background-color: #f1f1f1;
+}
+
+.content2 {
+	margin-left:2vw;
+	margin-bottom:2vw;
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+	width: 75vw;
+    background-color: #f1f1f1;
+}

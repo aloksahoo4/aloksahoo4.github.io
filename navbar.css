@@ -1,0 +1,105 @@
+body{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+
+.header{
+	width:100%;
+	height:60px;
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0px;
+}
+
+.wrap-container{
+	width:80%;
+	margin:0px auto;
+}
+
+.brand-image{
+	width:60px;
+	height:40px;
+	padding:10px 0px;
+}
+
+.active{
+	background:rgba(0,0,0,0.5);
+}
+
+.menu ul{
+	padding:0px;
+}
+
+.menu ul li{
+list-style:none;
+display:inline;
+color:white;
+font-size:18px;
+padding:20px;
+line-height:1.5;
+}
+
+.menu ul li:hover{
+	background:rgba(0,0,0,0.5);
+}
+
+.menu ul a{
+	text-decoration:none;
+}
+
+.header-images{
+	float:left;
+}
+
+.menu{
+	float:right;
+}
+
+.menu-btn{
+		
+		position:absolute;
+		right:20px;
+		top:4px;
+		width:45px;
+		height:40px;
+		display:none;
+	}
+
+@media only screen and (max-width:640px){
+	.header-images{
+		height:60px;
+		float:none;
+	}
+	.header-images .brand-image{
+		height:40px;
+		width:50px;
+		padding:10px 10px;
+	}
+	.menu{
+		float:none;
+		display:none;
+	}
+	.menu-btn{
+		display:block;
+	}
+
+	.menu ul li{
+		display:block;
+		background-color:rgba(28,28,28,2);
+		padding:2px;
+		font-size:17px;
+		text-align:center;
+	}
+	.menu ul li:hover{
+		background:#2a2a2a;
+	}
+	.menu ul{
+	margin:0px;
+    }
+	.wrap-container{
+	width:100%;
+}
+	
+	
+}
