@@ -1,0 +1,50 @@
+.mycss{
+	padding-top:2vw;
+}
+
+body {
+    word-break: break-all;
+}
+
+
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+/* th,td {
+  padding: 1px;
+} */
+
+#dataSection {
+    display: none;
+}
+.userDetails{
+    border:2px solid #ddd;border-radius: 0.5em;
+}
+
+.coverHeight {
+    max-height: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.userName {
+    font-size: 1vw;
+}
+
+.profileHeight {
+    border: 0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+.rowStyle {
+    border-bottom: 1px solid #ddd;
+    /*margin-top: 1em !important;*/
+}
+
+.rowStyle div {
+    /* padding: 1em; */
+}

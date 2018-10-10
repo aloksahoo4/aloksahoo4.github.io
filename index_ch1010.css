@@ -1,0 +1,198 @@
+#btn{
+	margin-top:3vw;
+	margin-left:33vw;
+	background-color:Blue;
+	color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;;
+	
+}
+
+.wrapper{
+	
+	width:90vw;
+	height:100vw;
+	
+}
+
+.container{
+	border-style: solid;
+	border-radius: 1px;
+	width:42vw;
+	border-width: thin;
+	padding-right:1vw;
+	display:none;
+	margin-left:20vw;
+	margin-top:5vw;
+	background-color:white;
+	/*position:fixed;*/
+	/*z-index:1;*/
+	left:0;
+	top:0;
+}
+
+
+.modaltitle{
+	width:41vw;
+	float:;
+	padding-left:2vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+	box-sizing: border;
+	border-bottom: solid;
+	border-width: thin;
+	background-color:white;
+} 
+
+.modalbody{
+	width:41vw;
+	float:center;
+	padding-left:2vw;
+	padding-top:2vw;
+	padding-bottom:4vw;
+	box-sizing: border;
+	border-bottom: solid;
+	border-width: thin;
+} 
+
+.modalbuttons{
+	width:43vw;
+	float:center;
+	padding-left:20vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+	box-sizing: border-box;
+	border-bottom: solid;
+	border-width: thin;
+}
+.close{
+	background-color:grey;
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+}
+.save{
+	background-color:Blue;
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+}
+
+.save:hover{
+	cursor: pointer;
+}
+.close:hover{
+	cursor: pointer;
+}
+
+.modaltitle .close-image{
+	width:2vw;
+	height:2vw;
+	float:right;
+
+}
+.close-image{
+	cursor: pointer;
+	
+}
+#btn{
+	cursor: pointer;
+	
+}
+
+@media only screen and (max-width:710px){
+	
+	.container{
+	border-style: solid;
+	border-radius: 1px;
+	width:55vw;
+	border-width: thin;
+	padding-right:1vw;
+	display:none;
+	margin-left:20vw;
+	margin-top:5vw;
+	background-color:white;
+	/*position:fixed;*/
+	/*z-index:1;*/
+	left:0;
+	top:0;
+}
+
+.modaltitle{
+	width:54vw;
+	float:;
+	padding-left:2vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+	box-sizing: border;
+	border-bottom: solid;
+	border-width: thin;
+	background-color:white;
+} 
+
+.modalbody{
+	width:54vw;
+	float:center;
+	padding-left:2vw;
+	padding-top:2vw;
+	padding-bottom:4vw;
+	box-sizing: border;
+	border-bottom: solid;
+	border-width: thin;
+} 
+
+.modalbuttons{
+	width:54vw;
+	float:center;
+	padding-left:20vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+	box-sizing: border-box;
+	border-bottom: solid;
+	border-width: thin;
+}
+
+.close{
+	background-color:grey;
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+}
+.save{
+	background-color:Blue;
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+}
+#btn{
+	margin-top:3vw;
+	margin-left:33vw;
+	background-color:Blue;
+	color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;;
+	
+	
+}

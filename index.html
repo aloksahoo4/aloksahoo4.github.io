@@ -1,44 +1,337 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title></title>
+	<meta charset="utf-8">
 
-<link rel="stylesheet" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css">
+
 </head>
 
+<body>
 
-<body>	
 
-
+	<section class = "mycss">
 	
-
-
-<div>
-
-<p> Click on below each item to check</p>
-
- <ul>
-	
-	<a href="collapse.html"><li>Collapsible</li></a>
-	<a href="navbar.html"><li>Navbar</li></a>
-	<a href="modal.html"><li>Modal</li></a>
-	
- </ul>
-
-</div>	
-
-	
+		<div class="container">
 		
-	<script src = "jquery-3.3.1.min.js"></script>
+			<form class="mycss">
+				<div class="form-row ">
+				
+				<div class="form-group col-md-4">
+					<!-- <label for="inputState">State</label> -->
+						<select id="input" class="form-control">
+							<option selected>imdbID</option>
+							<option selected>Title</option>
+							<option selected>Year</option>
+						</select>
+				</div>
+
+					<!-- <div class="col-4">
+					<input id="test" type="text" class="form-control" placeholder="Search">
+				    </div> -->
+				<div class="form-group col-md-4">
+				<!-- <label for="inputState">Enter you Query</label> -->
+					  <input id="test" type="text" class="form-control" placeholder="Type Your Search">
+				</div>
+					<div class="form-group col-md-4">
+					<label for="inputState"></label>
+					<button type="button" class="btn btn-primary">Search</button>
+					</div>
+				</div>
+			</form>
+		
+		</div>
 	
-	<script src = "index.js"></script>
+	</section>
 	
+
+
+
+
+	<section id="dataSection">
+
+		<div class="container" id="">
+
+			<div class="row">
+
+				<div id="cover" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 coverHeight">
+
+					<div class="row">
+
+						<div id="profilePhoto" class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2" style="margin:3em 0 1em 0;"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row p-3">
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 userDetails">
+
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Name :
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10 " id="Name">
+						</div>
+
+					</div>
+
+
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							year : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="year">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Rated : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Rated">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Released : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Released">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Runtime : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Runtime">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Genre : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Genre">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Director : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Director">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Writer : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Writer">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Actors : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Actors">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Plot : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Plot">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Language : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Language">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Country : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Country">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Awards : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Awards">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Poster : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Poster">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Metascore : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Metascore">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							imdbRating : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="imdbRating">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							imdbID : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="imdbID">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Type : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Type">
+						</div>
+
+					</div>
+					
+									
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							DVD Released Date : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="DVD">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Box Office Collection : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="BoxOffice">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Production : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Production">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Website : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Website">
+						</div>
+
+					</div>
+					
+					<div class="row rowStyle">
+
+						<div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+							Ratings : 
+						</div>
+						<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="Ratings">
+						
+						Source:
+							<div class ="" id = "Source" >
+							</div>
+					
+						Value:
+						<div class ="" id = "Value" >
+						</div>
+</div>
+					</div>
+					
+					
+					
+
+				</div>
+
+			</div>
+			</div>
+	</section>
 
 </body>
 
+<!-- External Scripts -->
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
 
 </html>
