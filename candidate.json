@@ -33,14 +33,30 @@
       "marriage_compliance":true,
       "wife_varna":""
    },
-   "proposer_info":{
-      "worker_id":"",
+   "proposer_info":[{
+      "worker_id":"101",
       "family_code":"",
       "first_name":"",
       "middle_name":"",
       "last_name":"",
       "primary":""
    },
+                   {
+      "worker_id":"102",
+      "family_code":"",
+      "first_name":"",
+      "middle_name":"",
+      "last_name":"",
+      "primary":""
+   },
+                   {
+      "worker_id":"103",
+      "family_code":"",
+      "first_name":"",
+      "middle_name":"",
+      "last_name":"",
+      "primary":""
+   }],
    "pres_addr":{
       "address_1":"",
       "address_2":"",
